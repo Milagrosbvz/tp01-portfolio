@@ -1,0 +1,320 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 120px;
+    margin: 10px auto;
+    display: block;
+}
+
+nav {
+    padding: 10px;
+    background-color: #f17d56;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+header {
+    padding: 10px;
+}
+
+.link {
+    color: #f6f4e7;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #af4262;
+}
+
+body {
+    background-color: #f6f4e7;
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.frase {
+    color: #af4262;
+    margin: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Pixelify Sans", sans-serif;
+
+}
+
+.textoBienvenida {
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+    background-color: #f48ca5;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.textoBienvenida b {
+    color: #af4262;
+}
+
+.botones {
+    background-color: #af4262;
+    padding: 5px 10px;
+    color: #f6f4e7;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.botonInicio {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+}
+
+.botones:hover {
+    color: #f17d56;
+}
+
+#titulo {
+    padding-top: 50px;
+    font-size: 45px;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.tituloProyectos {
+    padding-top: 50px;
+    font-size: 45px;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    color: #f01b5b;
+    border-bottom: 4px solid #f17d56;
+}
+
+.lista {
+    text-align: center;
+    margin: 10px;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+.fotoInicio {
+    width: 100%;
+    margin: 0;
+}
+
+.listaInicio {
+    text-align: center;
+    margin: 10px;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+.cta {
+    margin: 3px;
+    padding: 20px;
+    color: #af4262;
+    font-size: 15px;
+    text-align: center;
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+.tituloTrabajo {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    font-family: "Pixelify Sans", sans-serif;
+    margin-top: 30px;
+}
+
+.subTrabajo {
+    margin: 6px;
+    font-size: 20px;
+    background-color: #af4262;
+    padding: 5px;
+    color: #f6f4e7;
+}
+
+.textoTrabajo {
+    margin: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.textoFinal {
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #f48ca5;
+    padding: 20px;
+    color: #af4262;
+    font-weight: bold;
+}
+
+.fraseSecundaria {
+    margin: 30px 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #f17d56;
+}
+
+.subtituloTrabajo {
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #af4262;
+    margin-top: 25px;
+    padding: 3px;
+    font-size: 18px;
+}
+
+.fotoTrabajo {
+    width: 100%;
+}
+
+.tituloPrincipal {
+    color: #f01b5b;
+    border-bottom: 4px solid #f17d56;
+
+}
+
+.presentacionSobreMi {
+    display: flex;
+    align-items: center;
+}
+
+.presentacionSobreMi img {
+    width: 45%;
+}
+
+.presentacionSobreMi .textoBienvenida {
+    width: 50%;
+    margin: 10px;
+}
+
+.textoContacto {
+    margin: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.contactoBoton {
+    font-size: 16px;
+    padding: 8px 15px;
+    display: block;
+    width: fit-content;
+    margin: 15px auto;
+}
+
+.sticker {
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+}
+
+.stickerContacto {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.seccionContacto {
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: #f01b5b;
+    color: #f6f4e7;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 60px;
+    padding: 15px;
+}
+
+/* versión para pantallas de 768px o más */
+@media (min-width: 768px) {
+    #logo {
+        width: 150px;
+    }
+
+    .frase {
+        font-size: 45px;
+    }
+
+    #titulo {
+        font-size: 60px;
+    }
+
+    nav {
+        flex-wrap: nowrap;
+        gap: 25px;
+    }
+
+    header {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .fotoInicio {
+        width: 48%;
+
+    }
+
+    .sticker {
+        width: 250px;
+    }
+
+    .botones {
+        font-size: 14px;
+    }
+
+    .cta {
+        font-size: 20px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    .presentacionSobreMi .textoBienvenida {
+        text-align: left;
+    }
+
+    .presentacionSobreMi {
+        margin: 20px;
+    }
+
+    .presentacionSobreMi img {
+        margin-right: 20px;
+    }
+
+    .fotoTrabajo {
+        width: 48%;
+    }
+
+    .stickerContacto {
+        width: 100%;
+    }
+
+    .textoBienvenida {
+        font-size: 20px;
+    }
+
+    .tituloProyectos {
+        font-size: 50px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
